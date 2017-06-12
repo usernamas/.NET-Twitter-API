@@ -27,7 +27,7 @@ namespace TikiuosVeiks
             var user = User.GetAuthenticatedUser();
             
             Console.WriteLine(user);
-            var tweet = Tweet.PublishTweet("Zjbs veikia is Visual Studio forma 3");
+            //var tweet = Tweet.PublishTweet("Zjbs veikia is Visual Studio forma 3");
             //var timelineTweets = Timeline.GetUserTimeline(user, 5);
             var timelineTweets = Timeline.GetHomeTimeline();
             Console.WriteLine("--------------------------------------Newest--------------------------------------");
